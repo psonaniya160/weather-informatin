@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather Info</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<section class="container">
+<!-----------Input field search--------->
+<div class="weather_header">
+
+    <form class="search_weather">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <input class="city_name" type="search" placeholder="Search your city...."/>
+</form>
+</div>
+<!-----------Weather main data--------->
+<div class="weather_body">
+<h1 class="weather_city"></h1>
+<p class="weather_date_time"></p>
+<div class="weather_data"></div>
+<p class="weather_forecast"></p>
+<div class="weather_icon"></div>   
+<p class="weather_temperature"></p>
+<div class="weather_minmax">
+ <p class="weather_min"></p>
+ <p class="weather_max"></p>   
+</div>    
+</div>
+</div>
+<!-----------Weather Extra Data--------->
+<section class="weather_extra_data">
+  <div class="weather_card">
+<i class="fa-solid fa-temperature-half"></i>
+    <p>Feels Like</p>
+    <p class="weather_feelslike">15&#176</p>
+  </div>
+
+  <div class="weather_card">
+    <i class="fa-solid fa-wind"></i>
+    <p>Wind</p>
+    <p class="weather_wind">15&#176</p>
+  </div>
+
+  <div class="weather_card">
+    <i class="fa-solid fa-droplet"></i>
+    <p>Humidity</p>
+    <p class="weather_humidity">15&#176</p>
+  </div>
+
+  <div class="weather_card">
+    <i class="fa-solid fa-gauge-high"></i>
+    <p>Pressure</p>
+    <p class="weather_pressure">15&#176</p>
+  </div>
+</section>
+</section>
+<script src="index.js"></script>
+</body>
+</html>
